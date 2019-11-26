@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Person from './Person/Person';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    persons: [
+      {name: "Max", age: 28},
+      {name: "Manu", age: 26},
+      {name: "Stephanie", age: 22}
+    ]
+  }
+  render() {
+    return (
+      <div className="App">
+        <h1>This is my React Learning application</h1>
+        <p>This is the first paragraph</p>
+        <Person name={this.state.persons[0].name} age={this.state.persons[0].age} />
+        <Person name={this.state.persons[1].name} age={this.state.persons[1].age}>My hobbies: Racing</Person>
+        <Person name={this.state.persons[2].name} age={this.state.persons[2].age} />
+      </div>
+    );
+  }
+  //yuxaridaki return asagidaki returne cevrilir runtime da.
+  //orijinal varianti ise asagidaki kimidir.
+  //return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'This is React'));
 }
 
 export default App;
