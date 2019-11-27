@@ -1,0 +1,224 @@
+<div class="container-fluid mt-5" id="section2">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row d-flex justify-content-center">
+                    <h4>Torpaq sahəsinin kadastr göstəriciləri</h4>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <h4>Torpaq sahəsinin qaiməsi (sertifikatı)</h4>
+                </div>
+                <div class="row mt-1">
+                    <div class="table table-responsive">
+                        <table class="table table-sm table-bordered border border-dark text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Sahə (ha)</th>
+                                    <th scope="col">Torpaq sahəsinin zonası</th>
+                                    <th scope="col">Torpaq sahəsinin normativ qiyməti (manatla)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0.06</td>
+                                    <td></td>
+                                    <td>73.1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="table-responsive">
+                        <table class="table table-sm table-bordered text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">№</th>
+                                    <th scope="col">X</th>
+                                    <th scope="col">Y</th>
+                                    <th scope="col" colspan="2">Döngə nöqtələri arasındakı məsafə</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <th>Nöqtələr</th>
+                                    <th>Məsafə (metrlə)</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>725572.7211</td>
+                                    <td>4487419.6632</td>
+                                    <td>1-2</td>
+                                    <td>30.41</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>725601.392</td>
+                                    <td>4487429.7931</td>
+                                    <td>2-3</td>
+                                    <td>21.05</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>725572.7211</td>
+                                    <td>4487419.6632</td>
+                                    <td>1-2</td>
+                                    <td>30.41</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>725601.392</td>
+                                    <td>4487429.7931</td>
+                                    <td>2-3</td>
+                                    <td>21.05</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-6">
+                        <div class="row d-flex justify-content-center">
+                            <h5>Rəqəmli (elektron) kadastr xəritəsindən çıxış</h5>
+                        </div>
+                        <div class="row d-flex justify-content-center mt-2">
+                            <div class="border border-dark" style="width: 80%; height: 300px;"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row d-flex justify-content-center">
+                            <h5>Torpaq sahəsinin qonşu sərhədləri</h5>
+                        </div>
+                        <div class="row d-flex justify-content-center mt-5">
+                            <h5>Şərti işarələr</h5>
+                        </div>
+                        <div class="row d-flex justify-content-center mt-2">
+                            <div class="border border-dark" style="width: 80%; height: 200px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5" id="section3">
+        <div class="row d-flex justify-content-center">
+            <h4>Torpaq sahəsinin kadastr göstəriciləri</h4>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <h4>Torpaq sahəsinin qaiməsi (sertifikatı)</h4>
+        </div>
+        <div class="row mt-2">
+            <div class="table-responsive" style="transform:rotate(270deg);">
+                <table class="table table-sm table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">№</th>
+                            <th scope="col" colspan="2">Əkin</th>
+                            <th scope="col" colspan="2">Çoxillik əkmələr</th>
+                            <th scope="col" colspan="2">Dinc</th>
+                            <th scope="col" colspan="2">Biçənək</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                            <th scope="col">Ümumi fiziki köhnəlmə</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <th>suvarılan (ha)</th>
+                            <th>dəmyə (ha)</th>
+                            <th>suvarılan (ha)</th>
+                            <th>dəmyə (ha)</th>
+                            <th>suvarılan (ha)</th>
+                            <th>dəmyə (ha)</th>
+                            <th>suvarılan (ha)</th>
+                            <th>dəmyə (ha)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>3</td>
+                            <td>46</td>
+                            <td></td>
+                            <td></td>
+                            <td>310.6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-3">
+                <div class="d-flex justify-content-center">
+                    <h5>Rəqəmli (elektron) kadastr xəritəsindən çıxarış</h5>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="d-flex justify-content-center">
+                    <h5>Şərti işarələr</h5>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="table-responsive">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">№</th>
+                                <th scope="col">X</th>
+                                <th scope="col">Y</th>
+                                <th scope="col" colspan="2">Döngə nöqtələri arasındakı məsafə</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>Nöqtələr</th>
+                                <th>Məsafə (metrlə)</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-end mt-5 mr-5">
+            <h4>Torpaq sahəsinin qonşu sərhədləri</h4>
+        </div>
+    </div>
