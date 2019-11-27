@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
 
-class App extends React.Component {
+class App extends Component {
   state = {
     persons: [
       { name: "Max", age: 28 },
@@ -34,11 +34,23 @@ class App extends React.Component {
   }
   
   render() {
+    const style = {
+      backgroundColor: 'white',
+      font: 'inherit',
+      border: '1px solid blue',
+      padding: '8px'
+    };
+
     return (
       <div className="App">
         <h1>This is my React Learning application</h1>
         <p>This is the first paragraph</p>
-        <button onClick={() => this.switchNameHandler('Orxanilian')}>Switch Handler</button>
+        <button 
+        onClick={() => this.switchNameHandler('Orxanilian')}
+        style={style}
+        >
+        Switch Handler
+        </button>
         <Person
           name={this.state.persons[0].name}
           age={this.state.persons[0].age}
