@@ -11,3 +11,29 @@ funksiyaya parametr vermeyin ise iki yolu var:
 1-ci funksiya daha cox tovsiyye olunur. cunki 2-ci funksiyada react tez tez re-render ede biler ki bu da 
 proyekt ucun xeyirli olmayacaq.(yaxsi kod deyil). amma yenede proyektin olcusunden asili olaraq istifade
 oluna biler. 
+
+reactda funksiya yazilislari ve onlari cagiris formalari
+1. 
+togglePersonHandler({
+    console.log("ok");
+}
+ancaq bele cagira bilerik:
+() = this.togglePersonHandler();
+
+2.
+togglePersonHandler = () => {
+    console.log("ok");
+}
+this.togglePersonHandler; ve ya
+() = this.togglePersonHandler();
+
+3.
+togglePersonHandler = () => {
+    return true;
+}
+return varsa bele cagiririq:
+this.togglePersonHandler();
+
+////////////////////////////////////////////
+changed={(event) => this.changeNameHandler(event, person.id)}
+bunu tam basa dusmemisem
