@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import classes from './App.module.css';
 import Person from './Person/Person';
 
 class App extends Component {
@@ -46,6 +46,7 @@ class App extends Component {
 
   render() {
     let persons = null;
+    const btnClass = [classes.Button]
     if (this.state.showPersons) {
       persons = (
         <div>
@@ -60,21 +61,22 @@ class App extends Component {
           })}
         </div>
       );
+          btnClass.push(classes.Red);
     }
 
-    let classes = [];
+    let assignedClasses = [];
     if (this.state.persons.length <= 2) {
-      classes.push('red');
+      assignedClasses.push(classes.red);
     }
     if (this.state.persons.length <= 1) {
-      classes.push('bold');
+      assignedClasses.push(classes.bold);
     }
 
     return (
-        <div className="App">
+        <div className={classes.App}>
           <h1>This is my React Learning application</h1>
-          <p className={classes.join(' ')}>This is the first paragraph</p>
-          <button className="btn"
+          <p className={assignedClasses.join(' ')}>This is the first paragraph</p>
+          <button className={btnClass.join(' ')}
             onClick={this.togglePersonsHandler}
           >
             Toggle Persons
@@ -93,6 +95,8 @@ class App extends Component {
   //useState funksiyasi zamani ise bir state-i deyiserken diger state-ler itir. bunun ucun spread operatordan
   //istifade etmek lazimdir (...).
   //map() funksiyasinda list ucun return yazmaq lazimdi hemise.
+  //css deki klasslari reactda import classes from './sdad.css kimi istifade etmek ucun ya yarn eject deyib
+  //webpack.config.js den css-i konfiqurasiya etmeliyik ya da fayllari bele create etmeliyik: Person.module.css
 }
 
 export default App;
